@@ -31,7 +31,10 @@ ul a:visited {
     color: white;
 
 }
-
+button a,button a:visited{
+    text-decoration: none;
+    color: white;
+}
 ul {
     display: flex;
     list-style: none;
@@ -54,11 +57,21 @@ ul {
 }
 
 button {
-    border: 1px solid #3882f6;
-    background-color: #3882f6;
-    border-radius: 5px;
-    width: 100px;
+    border: 1px solid #81b64c;
+    background-color:#81b64c;
+    border-radius: 20px;
+    width: 250px;
     color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-size: large;
+    font-weight: 800;
+    height: 80px;
+
+}
+
+button:hover{
+    background-color: #a3d160;
+    cursor: pointer;
 }
 
 .placeholder-text {
@@ -118,6 +131,8 @@ h3 {
 .sign-up{
     background-color: #262522;
     padding: 80px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .sign-up p{
@@ -126,7 +141,8 @@ h3 {
 
 
 .chesscom{
-    display: flex;
+    width: 400px;
+    border-radius: 5px;
     background-color: #81b64c;
     color: white;
     padding: 30px;
