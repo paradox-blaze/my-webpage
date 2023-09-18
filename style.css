@@ -1,50 +1,57 @@
-
-.header{
+.header {
     background-color: #1f2937;
     padding: 0px;
     margin: 0px;
     height: 350px;
-    
+
 }
 
-body{
+body {
     margin: 0px;
     padding: 0px;
-    
+    background-color: #1f2937;
+
 }
 
 
-.navbar{
-    
+.navbar {
+
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 
 }
 
 
-ul{
+ul a,
+ul a:visited {
+    text-decoration: none;
+
+    color: white;
+
+}
+
+ul {
     display: flex;
     list-style: none;
-    color: white;
     gap: 25px;
-    
+
 }
 
-.logo{
+.logo {
     border-radius: 50%;
 }
 
-.title-placeholder{
+.title-placeholder {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-#description{
+#description {
     color: aliceblue;
 }
 
-button{
+button {
     border: 1px solid #3882f6;
     background-color: #3882f6;
     border-radius: 5px;
@@ -52,56 +59,56 @@ button{
     color: white;
 }
 
-.placeholder-text{
+.placeholder-text {
     font-size: 25px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: whitesmoke;
-    
-}
-
-
-a{
-    text-decoration: none;
 
 }
 
-.image-placeholder{
+
+
+.image-placeholder {
     display: flex;
     flex-direction: column;
     color: whitesmoke;
     size: 20px;
 }
 
-h3{
+h3 {
     text-align: center;
     font-size: 25px;
     columns: #1f2937;
 }
 
-.chess{
+.chess {
     display: flex;
     justify-content: space-around;
 }
 
-.chess-text{
+.chess-text {
     display: flex;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     justify-content: space-around;
 
 }
 
-.queen{
+.queen {
     position: relative;
     left: -25px;
 }
 
-.quote{
+.quote {
     background-color: #e5e7eb;
     display: flex;
-    margin-top: 50px;
     font-size: large;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+    padding: 30px;
 }
 
+.chess-pieces {
+    background-color: white;
+    height: auto;
+    padding-bottom: 50px;
+}
